@@ -326,7 +326,7 @@ footer{background:#0b1526;color:#c3d0e4;padding:72px 0 30px;margin-top:40px}
   .nav-links{display:none}
   .menu-btn{display:grid;place-items:center}
   .mobile-panel{display:block;max-height:0;overflow:hidden;transition:max-height .4s var(--ease);background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}
-  .menu-toggle:checked ~ .nav-in .mobile-panel{max-height:420px}
+  .menu-toggle:checked ~ .mobile-panel{max-height:420px}
   .mobile-panel a{display:block;padding:13px 18px;font-weight:600;border-top:1px solid var(--line);color:var(--ink)}
   .g2,.g3,.g4,.proof,.steps,.tiers,.plans,.quotes,.contact-grid{grid-template-columns:1fr}
   .proof{grid-template-columns:repeat(2,1fr)}
